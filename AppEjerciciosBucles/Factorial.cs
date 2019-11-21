@@ -10,19 +10,18 @@ using System.Windows.Forms;
 
 namespace AppEjerciciosBucles
 {
-    public partial class Form1 : Form
+    public partial class frmFactorial : Form
     {
-        public Form1()
+        public frmFactorial()
         {
             InitializeComponent();
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int limite = int.Parse(this.txtLimite.Text);
-            string cad = Funciones.EjemploBucles.saludar(limite);
-            this.txtResultado.Text=cad;
+            int num = int.Parse(this.txtNum.Text);
+            long resultado = Funciones.EjemploBucles.factorial(num);
+            this.txtFactorial.Text = resultado.ToString();
         }
     }
-    
 }
