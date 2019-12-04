@@ -33,7 +33,7 @@
             this.txtLimite = new System.Windows.Forms.TextBox();
             this.txtSumatoria = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,22 +79,22 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // btnSalir
+            // btnsalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(411, 77);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnsalir.Location = new System.Drawing.Point(411, 77);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(75, 23);
+            this.btnsalir.TabIndex = 5;
+            this.btnsalir.Text = "Salir";
+            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // VentanaExamen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 146);
-            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSumatoria);
             this.Controls.Add(this.txtLimite);
@@ -114,6 +114,6 @@
         private System.Windows.Forms.TextBox txtLimite;
         private System.Windows.Forms.TextBox txtSumatoria;
         private System.Windows.Forms.Button btnCalcular;
-        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnsalir;
     }
 }
