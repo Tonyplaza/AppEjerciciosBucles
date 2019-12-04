@@ -29,7 +29,6 @@ namespace AppEjerciciosBucles
             suma = Examen.sumatoria(limite);
             this.txtSumatoria.Text = suma.ToString();
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
