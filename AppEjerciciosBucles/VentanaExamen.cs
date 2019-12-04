@@ -17,7 +17,7 @@ namespace AppEjerciciosBucles
             InitializeComponent();
         }
 
-        private void txtLimite_TextChanged(object sender, EventArgs e)
+        private void VentanaExamen_Load(object sender, EventArgs e)
         {
 
         }
